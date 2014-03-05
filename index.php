@@ -1,11 +1,11 @@
 <?php
 /**
- * 这是基于 Typecho 0.9 系统的一套默认皮肤的修改版，此版本配色方案采用segmentfault的绿色。
+ * 这是基于 Typecho 0.9 系统的一款主题，最大特点是简洁。
  * 
- * @package MX 绿色梦想 
+ * @package SegmentFault
  * @author Jason Xiang
- * @version 0.0.1
- * @link http://xiguabaobao.com
+ * @version 1.0.0
+ * @link http://jasonxiang.com
  */
  
  $this->need('header.php');
