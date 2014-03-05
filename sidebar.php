@@ -4,7 +4,7 @@
 		<h3 class="widget-title"><?php _e('最新文章'); ?></h3>
         <ul class="widget-list">
             <?php $this->widget('Widget_Contents_Post_Recent')
-            ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
+            ->parse('<li><a href="{permalink}" title="{title}">{title}</a></li>'); ?>
         </ul>
     </section>
     <?php endif; ?>
