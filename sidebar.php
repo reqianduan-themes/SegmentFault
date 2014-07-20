@@ -1,4 +1,8 @@
 <div class="col-mb-12 col-4 kit-hidden-tb" id="secondary" role="complementary">
+    <section>
+        <a href="http://themes.xiguabaobao.com/"><img src="http://arvin.qiniudn.com/ad.png" alt="西瓜宝宝主题" style="width:100%;vertical-align:middle;"></a>
+    </section>
+    
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowRecentPosts', $this->options->sidebarBlock)): ?>
     <section class="widget">
 		<h3 class="widget-title"><?php _e('最新文章'); ?></h3>
@@ -57,5 +61,9 @@
         </ul>
 	</section>
     <?php endif; ?>
+    
+    <!-- <section>
+        <a href="http://themes.xiguabaobao.com/b1/"><img src="http://arvin.qiniudn.com/theme-B1.png" alt="西瓜宝宝主题" width="100%"></a>
+    </section> -->
 
 </div><!-- end #sidebar -->
